@@ -1,0 +1,18 @@
+apiVersion: config.openshift.io/v1
+kind: APIServer
+metadata:
+  annotations:
+    release.openshift.io/create-only: "true"
+  creationTimestamp: "2020-10-02T20:58:32Z"
+  generation: 2
+  name: cluster
+  resourceVersion: "29817"
+  selfLink: /apis/config.openshift.io/v1/apiservers/cluster
+  uid: 3a7016ea-e167-4672-8b55-d18860d8fda5
+spec:
+  servingCerts:
+    namedCertificates:
+    - names:
+      - api.cluster-5675.5675.sandbox960.opentlc.com
+      servingCertificate:
+        name: custom-cert
