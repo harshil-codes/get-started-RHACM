@@ -1,14 +1,7 @@
 apiVersion: config.openshift.io/v1
 kind: APIServer
 metadata:
-  annotations:
-    release.openshift.io/create-only: "true"
-  creationTimestamp: "2020-07-23T22:29:04Z"
-  generation: 3
   name: cluster
-  resourceVersion: "92803124"
-  selfLink: /apis/config.openshift.io/v1/apiservers/cluster
-  uid: 7194b852-1241-4cc2-99f0-8709bb632967
 spec:
   servingCerts:
     namedCertificates:

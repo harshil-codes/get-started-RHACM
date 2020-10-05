@@ -1,0 +1,15 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: connected-cluster-1-cert-policy
+  namespace: oauth-policies
+spec:
+  clusterConditions:
+  - type: ManagedClusterConditionAvailable
+    status: "True"
+  clusterSelector:
+    matchExpressions:
+      - key: id
+        operator: In
+        values: 
+        - connected-cluster-1
