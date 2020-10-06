@@ -15,7 +15,7 @@ metadata:
 spec:
   channel: open-cluster-management/policy-channel
   placement:
-    local: true
+    local: false
   packageFilter:
     filterRef:
       name: policies-github-path
