@@ -25,7 +25,7 @@ spec:
               servingCerts:
                 namedCertificates:
                 - names:
-                  - api.cluster-5675.5675.sandbox960.opentlc.com
+                  - api.cluster-646b.646b.sandbox274.opentlc.com
                   servingCertificate:
                     name: custom-cert
         - complianceType: mustonlyhave
