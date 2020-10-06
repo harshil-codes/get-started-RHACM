@@ -12,7 +12,7 @@ spec:
       apiVersion: policy.open-cluster-management.io/v1
       kind: ConfigurationPolicy
       metadata:
-        name: policy-auth-provider
+        name: opentlc-cluster-config-policy
       spec:
         object-templates:
         - complianceType: mustonlyhave
