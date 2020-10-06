@@ -6,7 +6,6 @@ metadata:
 spec:
   complianceType: mustonlyhave
   remediationAction: enforce
-  disabled: true
   policy-templates:
   - objectDefinition:
       apiVersion: policy.open-cluster-management.io/v1
