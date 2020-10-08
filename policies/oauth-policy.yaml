@@ -35,7 +35,7 @@ spec:
           objectDefinition:
             apiVersion: v1
             data:
-              htpasswd: "YWRtaW46JDJ5JDA1JEYvMXdIY2dlbVdnTEJJNzRvYXc2WWV5b3FqMG9OSlh2ZG52eWtiVkREVU9sSjJrSWpkbzdDCmhhcnNoaWw6JDJ5JDA1JGVVNFNsN1BQc2hxN1RTanh3dG5BMS56TnVEcGw3V25COWkxZElhYzFyc2dLNlY3VElMdmNxCg=="
+              htpasswd: "YWRtaW46JDJ5JDA1JEYvMXdIY2dlbVdnTEJJNzRvYXc2WWV5b3FqMG9OSlh2ZG52eWtiVkREVU9sSjJrSWpkbzdDCmhhcnNoaWw6JDJ5JDA1JGVVNFNsN1BQc2hxN1RTanh3dG5BMS56TnVEcGw3V25COWkxZElhYzFyc2dLNlY3VElMdmNxCnJlZGhhdDokMnkkMDUkNUhxa0d1U3pBWUxlS1ptM253bks3ZUZvUG9MZzN1eVVud2psZGc2RHMucGd3ci4xQ2RvLlcK"
             kind: Secret
             metadata:
               name: htpass-secret
