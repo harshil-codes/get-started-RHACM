@@ -1,9 +1,0 @@
-apiVersion: operators.coreos.com/v1alpha1
-kind: CatalogSource
-metadata:
-  name: custom-redhat-operators
-  namespace: openshift-marketplace
-spec:
-  sourceType: grpc
-  image: example_registry:5000/olm/redhat-operators@sha256:f73d42950021f9240389f99ddc5b0c7f1b533c054ba344654ff1edaf6bf827e3
-  displayName: Red Hat Operators
