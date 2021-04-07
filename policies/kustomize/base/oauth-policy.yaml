@@ -21,6 +21,6 @@ spec:
             kind: Namespace
             metadata:
               name: test
-            annotations:
-                cluster: placeholder
-                kustomize: yes
+              annotations:
+                  cluster: placeholder
+                  kustomize: yes

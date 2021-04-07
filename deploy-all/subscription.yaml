@@ -5,7 +5,7 @@ metadata:
   name: policies-github-path
   namespace: open-cluster-management
 data:
-    path: policies
+    path: policies/kustomize/cluster01
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
