@@ -1,0 +1,5 @@
+---
+resources:
+- oauth-placement-binding.yaml  
+- oauth-placement-rule.yaml     
+- oauth-policy.yaml
